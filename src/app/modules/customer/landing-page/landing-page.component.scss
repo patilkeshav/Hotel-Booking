@@ -3,9 +3,17 @@
 }
 .headingcontainer{
     position: relative;
-   bottom: 195px;
+   bottom: 550px;
    background-color: white;
+   
  }
  .maincontainer{
     background-color:rgba(155, 155, 248, 0.299);
  }
+ .containerwidth{
+    width: 80%;
+   height: 300px;
+   position:relative;
+   top: -200px;
+   background-color: aliceblue;
+}

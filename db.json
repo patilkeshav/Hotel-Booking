@@ -28,6 +28,8 @@
     "packageImg":["assets/images/pune img.jpg"],
     "packageType":[{
       "name":"Family"
+    },{
+      "name":"Womens"
     }]
   
    },
@@ -36,9 +38,10 @@
     "location":"Mumbai",
     "packageImg":["assets/images/mumbai img.png"],
     "packageType":[{
-      "name":"Family"
+      "name":"Womens"
     },
-  {"name":"Couple"}]
+    {"name":"Family"}
+    ]
   
    },
    {
@@ -46,7 +49,9 @@
     "location":"New Delhi",
     "packageImg":["assets/images/new delhi.png"],
     "packageType":[
-  {"name":"Couple"}]
+  {"name":"Couple"},{
+    "name":"Students"
+  }]
    },
    {
     "id":4,
@@ -54,6 +59,8 @@
     "packageImg":["assets/images/banglore img.png"],
     "packageType":[{
       "name":"Family"
+    },{
+      "name":"Womens"
     }]
    },
    {
@@ -63,6 +70,8 @@
       ["https://pix6.agoda.net/geo/city/8801/1_8801_02.jpg?ca=6&ce=1&s=1920x822"],
       "packageType":[{
         "name":"Family"
+      },{
+        "namme":"Students"
       }]
    },
    {
@@ -71,8 +80,11 @@
     "packageImg":["assets/images/chennai img.png"],
     "packageType":[{
       "name":"Family"
-    },
-  {"name":"Couple"}]
+    },{
+      "name":"Couple"
+    },{
+      "name":"Students"
+    }]
     
     
    },
@@ -81,7 +93,7 @@
     "location":"Jaipur",
     "packageImg":["assets/images/Jaipur img.jpg"],
     "packageType":[{
-      "name":"Family"
+      "name":"Students"
     },
   {"name":"Couple"}]
   
@@ -91,19 +103,45 @@
     "location":"Kolkata",
     "packageImg":["assets/images/kolkata img.jpg"],
     "packageType":[{
-      "name":"Family"
-    },
-  {"name":"Couple"}]
+      "name":"Students"
+    }]
   
    },
    {
     "id":9,
     "location":"Goa",
     "packageImg":["assets/images/Goa img.jpg"],
-    "packageType":[
-  {"name":"Couple"}]
+    "packageType":[{"name":"Family"},
+  {"name":"Womens"},
+  {"name":"Honeymmoon"}]
   
-   }
+   },
+   {
+    "id":10,
+    "location":"Manali",
+    "packageImg":["assets/images/manali img.jpg"],
+    "packageType":[
+  {"name":"Honeymmoon"},
+{"name":"Couple"}]
+  
+   },
+   {
+    "id":11,
+    "location":"Pondicherry",
+    "packageImg":["assets/images/pondicherry img.jpg"],
+    "packageType":[
+  {"name":"Honeymmoon"},
+{"name":"Couple"}]
+  
+   },
+   {
+    "id":12,
+    "location":"Agra",
+    "packageImg":["assets/images/agra img.jpg"],
+    "packageType":[
+  {"name":"Honeymmoon"},
+{"name":"Couple"}]
+    }
   
   ]
   

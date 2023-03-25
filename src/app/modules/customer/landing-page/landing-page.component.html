@@ -1,0 +1,18 @@
+<div class="container-fluid maincontainer" style="height:20rem;">
+ <div class="row text-center">
+<h5 class="mt-2">HOTELS,RESORTES,HOSTELS &MORE</h5>
+<h6>SELECT PACKAGES</h6>
+ </div>
+</div>
+<div class="container w-75 border shadow headingcontainer" style="height:5rem;">
+    <div class="d-flex justify-content-around mt-1">
+        <div class="row"  *ngFor="let item of packageName" (click)="showPackages(item)">
+        <a class="cursor text-decoration-none text-center">
+            <img [src]="item.packageLogo"alt="" style="height: 3rem; width: 3rem;">
+            <h6>{{item.name}}</h6>
+        </a>
+    </div>
+    </div>
+</div>
+<app-hotel-preferences></app-hotel-preferences>
+<!-- <app-hotel-preferences [hotelList]=" getLocationData"></app-hotel-preferences> -->

@@ -6,7 +6,7 @@
             <div class="card-body">
               <h5 class="card-title fw-semibolder">{{item.name}}</h5>
               <p class="card-text fw-semibolder fs-5">{{item.location}}</p>
-             <button type="button" class="btn btn-outline-primary">view</button>
+             <button type="button" class="btn btn-outline-primary" [routerLink]="['/hotelList',item.id]">view</button>
             </div>
           </div>
     </div>

@@ -1,148 +1,362 @@
 {
- "packages":[
-  {"id":1,
-  "packageLogo":"assets/images/families-logo.png",
-   "name":"Family"},
-
-   {"id":2,
-   "packageLogo":"assets/images/couple.png",
-   "name":"Couple"},
-
-   {"id":3,
-   "packageLogo":"assets/images/honeymoon.png",
-   "name":"Honeymmoon"},
-
-   {"id":4,
-   "packageLogo":"assets/images/students.png",
-   "name":"Students"},
-   
-   {"id":5,
-   "packageLogo":"assets/images/womens.png",
-   "name":"Womens"}
- ],
-
-  "hotelLocations": [
-   {
-    "id":1,
-    "location":"Pune",
-    "packageImg":["assets/images/pune img.jpg"],
-    "packageType":[{
-      "name":"Family"
-    },{
-      "name":"Womens"
-    }]
-  
-   },
-   {
-    "id":2,
-    "location":"Mumbai",
-    "packageImg":["assets/images/mumbai img.png"],
-    "packageType":[{
-      "name":"Womens"
+  "packages": [
+    {
+      "id": 1,
+      "packageLogo": "assets/images/families-logo.png",
+      "name": "Family"
     },
-    {"name":"Family"}
-    ]
-  
-   },
-   {
-    "id":3,
-    "location":"New Delhi",
-    "packageImg":["assets/images/new delhi.png"],
-    "packageType":[
-  {"name":"Couple"},{
-    "name":"Students"
-  }]
-   },
-   {
-    "id":4,
-    "location":"Bangalore",
-    "packageImg":["assets/images/banglore img.png"],
-    "packageType":[{
-      "name":"Family"
-    },{
-      "name":"Womens"
-    }]
-   },
-   {
-    "id":5,
-    "location":"Hyderabad",
-    "packageImg":
-      ["https://pix6.agoda.net/geo/city/8801/1_8801_02.jpg?ca=6&ce=1&s=1920x822"],
-      "packageType":[{
-        "name":"Family"
-      },{
-        "namme":"Students"
-      }]
-   },
-   {
-     "id":6,
-    "location":"Chennai",
-    "packageImg":["assets/images/chennai img.png"],
-    "packageType":[{
-      "name":"Family"
-    },{
-      "name":"Couple"
-    },{
-      "name":"Students"
-    }]
-    
-    
-   },
-   {
-    "id":7,
-    "location":"Jaipur",
-    "packageImg":["assets/images/Jaipur img.jpg"],
-    "packageType":[{
-      "name":"Students"
+    {
+      "id": 2,
+      "packageLogo": "assets/images/couple.png",
+      "name": "Couple"
     },
-  {"name":"Couple"}]
-  
-   },
-   {
-    "id":8,
-    "location":"Kolkata",
-    "packageImg":["assets/images/kolkata img.jpg"],
-    "packageType":[{
-      "name":"Students"
-    }]
-  
-   },
-   {
-    "id":9,
-    "location":"Goa",
-    "packageImg":["assets/images/Goa img.jpg"],
-    "packageType":[{"name":"Family"},
-  {"name":"Womens"},
-  {"name":"Honeymmoon"}]
-  
-   },
-   {
-    "id":10,
-    "location":"Manali",
-    "packageImg":["assets/images/manali img.jpg"],
-    "packageType":[
-  {"name":"Honeymmoon"},
-{"name":"Couple"}]
-  
-   },
-   {
-    "id":11,
-    "location":"Pondicherry",
-    "packageImg":["assets/images/pondicherry img.jpg"],
-    "packageType":[
-  {"name":"Honeymmoon"},
-{"name":"Couple"}]
-  
-   },
-   {
-    "id":12,
-    "location":"Agra",
-    "packageImg":["assets/images/agra img.jpg"],
-    "packageType":[
-  {"name":"Honeymmoon"},
-{"name":"Couple"}]
+    {
+      "id": 3,
+      "packageLogo": "assets/images/honeymoon.png",
+      "name": "Honeymmoon"
+    },
+    {
+      "id": 4,
+      "packageLogo": "assets/images/students.png",
+      "name": "Students"
+    },
+    {
+      "id": 5,
+      "packageLogo": "assets/images/womens.png",
+      "name": "Womens"
     }
+  ],
+  "hotelLocations": [
+    {
+      "id": 1,
+      "location": "Pune",
+      "packageImg": [
+        "assets/images/pune img.jpg"
+      ],
+      "packageType": [
+        {
+          "name": "Family"
+        },
+        {
+          "name": "Womens"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "location": "Mumbai",
+      "packageImg": [
+        "assets/images/mumbai img.png"
+      ],
+      "packageType": [
+        {
+          "name": "Womens"
+        },
+        {
+          "name": "Family"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "location": "New Delhi",
+      "packageImg": [
+        "assets/images/new delhi.png"
+      ],
+      "packageType": [
+        {
+          "name": "Couple"
+        },
+        {
+          "name": "Students"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "location": "Bangalore",
+      "packageImg": [
+        "assets/images/banglore img.png"
+      ],
+      "packageType": [
+        {
+          "name": "Family"
+        },
+        {
+          "name": "Womens"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "location": "Hyderabad",
+      "packageImg": [
+        "https://pix6.agoda.net/geo/city/8801/1_8801_02.jpg?ca=6&ce=1&s=1920x822"
+      ],
+      "packageType": [
+        {
+          "name": "Family"
+        },
+        {
+          "namme": "Students"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "location": "Chennai",
+      "packageImg": [
+        "assets/images/chennai img.png"
+      ],
+      "packageType": [
+        {
+          "name": "Family"
+        },
+        {
+          "name": "Couple"
+        },
+        {
+          "name": "Students"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "location": "Jaipur",
+      "packageImg": [
+        "assets/images/Jaipur img.jpg"
+      ],
+      "packageType": [
+        {
+          "name": "Students"
+        },
+        {
+          "name": "Couple"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "location": "Kolkata",
+      "packageImg": [
+        "assets/images/kolkata img.jpg"
+      ],
+      "packageType": [
+        {
+          "name": "Students"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "location": "Goa",
+      "packageImg": [
+        "assets/images/Goa img.jpg"
+      ],
+      "packageType": [
+        {
+          "name": "Family"
+        },
+        {
+          "name": "Womens"
+        },
+        {
+          "name": "Honeymmoon"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "location": "Manali",
+      "packageImg": [
+        "assets/images/manali img.jpg"
+      ],
+      "packageType": [
+        {
+          "name": "Honeymmoon"
+        },
+        {
+          "name": "Couple"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "location": "Pondicherry",
+      "packageImg": [
+        "assets/images/pondicherry img.jpg"
+      ],
+      "packageType": [
+        {
+          "name": "Honeymmoon"
+        },
+        {
+          "name": "Couple"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "location": "Agra",
+      "packageImg": [
+        "assets/images/agra img.jpg"
+      ],
+      "packageType": [
+        {
+          "name": "Honeymmoon"
+        },
+        {
+          "name": "Couple"
+        }
+      ]
+    }
+  ],
+  "hotels": [
+    
+        {  "location":"Pune",
+          "hotelName": "JW Marriott Hotel Pune",
+          "subLocation": "Model colony",
+          "offername": "Limited time offer-JW",
+          "descriptions": "Buffet Breakfast & Lunch or Candlelight Dinner Pint of house Wine,Discount at Dining Venues & spa.",
+          "hotelImg": [
+            "https://images.trvl-media.com/lodging/4000000/3880000/3877900/3877863/a0b89bb4.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+          ],
+          "actualprice": 18800,
+          "offerPrice": 16000
+        },
+        {  "location":"Pune",
+          "hotelName": "Sheraton Grand Pune Bund Garden Hotel",
+          "subLocation": "pune",
+          "offername": "Limited time offer-Grand Gateways",
+          "descriptions": "Enjoy exceptional hospitality with buffer breakfatst,speacially curated meal,themed hi-tea & kids upto 12 stay and dine for free.",
+          "hotelImg": [
+            "https://images.trvl-media.com/lodging/1000000/520000/519000/518997/25444c38.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+          ],
+          "actualprice": 10852,
+          "offerPrice": 9197
+        },
+        {  "location":"Pune",
+          "hotelName": "Hyatt Pune",
+          "subLocation": "pune",
+          "offername": "Fully refundable",
+          "descriptions": "Buffet Breakfast & Lunch or Candlelight Dinner.",
+          "hotelImg": [
+            ""
+          ],
+          "actualprice": 20060,
+          "offerPrice": 17000
+        },
+        { "location":"Pune",
+          "hotelName": "Conard pune by Hilton",
+          "subLocation": "pune",
+          "offername": "Business Package",
+          "descriptions": "immerse in luxurious accommondation,relish hearty breakfast.",
+          "hotelImg": [
+            ""
+          ],
+          "actualprice": 20060,
+          "offerPrice": 17000
+        },
+        { "location":"Pune",
+          "hotelName": "Novotel hotel",
+          "subLocation":"Viman Nagar pune",
+          "offername": "Limited time offer",
+          "descriptions": "Buffet Breakfast & Lunch or Candlelight Dinner,swimming pool",
+          "hotelImg": [
+            ""
+          ],
+          "actualprice":6048 ,
+          "offerPrice": 6048
+        },
+        {  "location":"Pune",
+          "hotelName": "Radisson Blu hotel",
+          "subLocation": "Kharadi Pune",
+          "offername": "Fully refundable",
+          "descriptions": "Luxury hotel with outdoor pool, near EON Free Zone",
+          "hotelImg": [
+            "https://images.trvl-media.com/lodging/4000000/3260000/3257800/3257712/54fb893a.jpg?impolicy=resizecrop&rw=1200&ra=fit"
+          ],
+          "actualprice":7839,
+          "offerPrice":6999
+        },
+        {  "location":"Pune",
+          "hotelName": "The Westin",
+          "subLocation": "Koregaon Park",
+          "offername": "Exclusive Staycation Offers",
+          "descriptions": "Breakfast,set lunch or dinner,INR 1000 spa credit,Discount on F&B and delight gift on arrival",
+          "hotelImg": [
+            ""
+          ],
+          "actualprice":13570,
+          "offerPrice":11500
+        },
+        {  "location":"Pune",
+          "hotelName": "Royal Orchid Golden Suites",
+          "subLocation": "Pune",
+          "offername": "Fully refundable",
+          "descriptions":"3-star hotel in Pune with restaurant and bar/lounge",
+          "hotelImg": [
+            ""
+          ],
+          "actualprice":5826,
+          "offerPrice": 5228
+        },
+        {  "location":"Pune",
+          "hotelName": "Lemon Tree Premier",
+          "subLocation":"city center Pune",
+          "offername": "Breakfast,lunch & dinner,spa and outdoor pool",
+          "descriptions": "",
+          "hotelImg": [
+            ""
+          ],
+          "actualprice":6498 ,
+          "offerPrice":5249
+        },
+        { "location":"Mumbai",
+        "hotelName": "Taj Mahal",
+          "subLocation":"Mumbai",
+          "offername": "Spacious,modern rooms & suites.",
+          "descriptions": "Located in South Mumbai near the historic Gateway of india.Book now and get special offers on Food and Soft Bev,Salon & Spa.",
+          "hotelImg": [
+            ""
+          ],
+          "actualprice":18880,
+          "offerPrice":16000
+        },
+        {  "location":"Mumbai",
+          "hotelName": "The Leela",
+            "subLocation":"Mumbai",
+            "offername": "Resort Style Business Hotel",
+            "descriptions": "Experience soothing & relaxed stay with just 5 min drive from mumbai Airport",
+            "hotelImg": [
+              ""
+            ],
+            "actualprice":15930,
+            "offerPrice":13500
+          },
+          {  "location":"Mumbai",
+            "hotelName": "Hotel Four Seasons",
+              "subLocation":"Mumbai",
+              "offername": "Business Package",
+              "descriptions": "Enjoy exceptional hospitality with buffer breakfatst,speacially curated meal with spa.",
+              "hotelImg": [
+                ""
+              ],
+              "actualprice":20060,
+              "offerPrice":17000
+            },
+            {  "location":"Mumbai",
+              "hotelName": "Hotel President",
+                "subLocation":"Colaba Causeway Mumbai",
+                "offername": "Limited time offer",
+                "descriptions": "Experience soothing & relaxed stay with spa.",
+                "hotelImg": [
+                  ""
+                ], 
+                "actualprice":13500,
+                "offerPrice":15900
+              }
+            ]
+
+          }
   
-  ]
-  
-}

@@ -8,6 +8,7 @@ import { HeaderComponent } from './modules/core/header/header.component';
 import { FooterComponent } from './modules/core/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HotelPreferencesComponent } from './modules/customer/hotel-preferences/hotel-preferences.component';
+import { HotelListsComponent } from './modules/customer/hotel-lists/hotel-lists.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { HotelPreferencesComponent } from './modules/customer/hotel-preferences/
     HeaderComponent,
     FooterComponent,
     HotelPreferencesComponent,
+    HotelListsComponent,
   ],
   imports: [
     BrowserModule,

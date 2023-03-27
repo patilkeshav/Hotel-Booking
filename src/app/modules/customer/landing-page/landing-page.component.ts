@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { HttpService } from 'src/app/services/http.service';
+import { LocationService } from 'src/app/services/location.service';
 
 @Component({
   selector: 'app-landing-page',
@@ -11,10 +13,11 @@ export class LandingPageComponent implements OnInit {
  selectedPackages:any;
  getLocationData:any=[];
  hotelLocations:any=[];
+ selectedLocations:any;
  filterData:any=[];
  showLocation:boolean=false;
  showAlllocations:boolean=true;
-  constructor(private http:HttpService,){}
+  constructor(private http:HttpService,private locationService:LocationService,private router:Router ){}
  ngOnInit(): void {
   this.getPackagesName();
   this.getHotelLocations()
@@ -68,7 +71,23 @@ export class LandingPageComponent implements OnInit {
 
      
  }
+ selectedDate(ev:any){
+ console.log("selectedDate",ev.target.value)
+ }
+ showLocations(hotel:any){
+ this.selectedLocations=hotel.target.value
+//  if(this.selectedLocations==this.getLocationData.location){}
+  console.log("selected location",this.selectedLocations)
 
+
+
+ }
+ onLocationChange(selectedLocation:any){
+  let selectedlocation=selectedLocation.target.value
+  this.locationService.setSelectedLocation(selectedlocation)
+  console.log("selected location",selectedlocation)
+
+}
  }
  
  
